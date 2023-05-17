@@ -10,19 +10,24 @@ void main() {
           centerTitle: true,
           backgroundColor: Colors.red,
         ),
-        body: const DicePage(),
+        body: DicePage(),
       ),
     ),
   );
 }
 
-class DicePage extends StatelessWidget {
+class DicePage extends StatefulWidget {
   const DicePage({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    // var leftDiceNumber = 5;
+  State<DicePage> createState() => _DicePageState();
+}
 
+class _DicePageState extends State<DicePage> {
+  int leftDiceNumber = 3;
+
+  @override
+  Widget build(BuildContext context) {
     return Center(
       child: Row(
         children: <Widget>[
@@ -31,8 +36,8 @@ class DicePage extends StatelessWidget {
               onPressed: () {
                 print('Left Button got pressed');
               },
-              child: const Image(
-                image: AssetImage('images/dice1.png'),
+              child: Image(
+                image: AssetImage('images/dice$leftDiceNumber.png'),
               ),
             ),
           ),
