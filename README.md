@@ -15,6 +15,8 @@ Feel free to customize the code according to your preferences. You can modify th
 # Screenshots
 ![Dice Rolls (1)](https://github.com/Navid-Rahman/Dice_Rolls/assets/77515075/a480b790-df43-480b-93be-12482487fec4)
 
+[Dice Rolls.webm](https://github.com/Navid-Rahman/Dice_Rolls/assets/77515075/8b5f5e8d-e3d7-40df-9c31-e88fa203f049)
+
 
 # Contact
 For any inquiries or feedback, please contact the project creator at navidrahman92@gmail.com
